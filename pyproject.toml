@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "ciptools-flask"
+version = "0.0.0"  # DO NOT CHANGE -- set during build
+description = "Libraries for using Flask."
+license = "Apache-2.0"
+authors = ["Center for an Informed Public <ciptools@uw.edu>"]
+packages = [{include = "ciptools", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Flask = "^2.0.1"
+statsd = "^3.3.0"
+ciptools = "^1.0.0"
+
+# this should go away when everything is updated to python 3.9 when wemove off
+# of buster and on to bullseye. when this is removed then references to
+# "importlib_metadata" can be changed to "importlib.metadata".
+importlib-metadata = "^4.6.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+pytest-flake8 = "^1.0.7"
+flake8 = "^3.9.2"
+flake8-bandit = "^2.1.2"
+flake8-builtins = "^1.5.3"
+flake8-bugbear = "^21.4.3"
+flake8-comprehensions = "^3.5.0"
+flake8-eradicate = "^1.1.0"
+flake8-isort = "^4.0.0"
+pep8-naming = "^0.12.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = "--flake8 -p no:warnings --log-level=ERROR"
+
+[[tool.poetry.source]]
+name = "uwcip"
+url = "https://uwcip.github.io/pypi/simple/"
