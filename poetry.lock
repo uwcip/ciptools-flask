@@ -56,7 +56,7 @@ unicode_backport = ["unicodedata2"]
 
 [[package]]
 name = "ciptools"
-version = "1.0.0"
+version = "1.0.1"
 description = "Core libraries for CIP."
 category = "main"
 optional = false
@@ -612,7 +612,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "3c3e249e0ca9422c5f2a85d028c0e165dacc18555666d7152c743fb8d499dd73"
+content-hash = "105678eccbc92b19162756fb4380b353fe441a79d3441d3cc21843bcbf50dd91"
 
 [metadata.files]
 atomicwrites = [

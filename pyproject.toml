@@ -10,7 +10,7 @@ packages = [{include = "ciptools", from = "src"}]
 python = "^3.7"
 Flask = "^2.0.1"
 statsd = "^3.3.0"
-ciptools = "^1.0.0"
+ciptools = "^1.0.1"
 
 # this should go away when everything is updated to python 3.9 when wemove off
 # of buster and on to bullseye. when this is removed then references to
