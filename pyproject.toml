@@ -12,11 +12,6 @@ Flask = "^2.0.1"
 statsd = "^3.3.0"
 ciptools = "^1.1.0"
 
-# this should go away when everything is updated to python 3.9 when wemove off
-# of buster and on to bullseye. when this is removed then references to
-# "importlib_metadata" can be changed to "importlib.metadata".
-importlib-metadata = "^4.8.1"
-
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
 pytest-flake8 = "^1.0.7"

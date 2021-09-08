@@ -1,8 +1,8 @@
-import importlib_metadata
+import importlib.metadata
 
 try:
-    __version__ = importlib_metadata.version(__name__)
-except importlib_metadata.PackageNotFoundError:
+    __version__ = importlib.metadata.version(__name__)
+except importlib.metadata.PackageNotFoundError:
     __version__ = "0.0.0"
 
 import logging
