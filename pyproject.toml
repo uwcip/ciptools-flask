@@ -8,7 +8,7 @@ packages = [{include = "ciptools", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-Flask = "^2.0.1"
+Flask = "^2.0.2"
 statsd = "^3.3.0"
 ciptools = "^1.1.0"
 
