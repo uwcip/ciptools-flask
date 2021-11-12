@@ -10,7 +10,7 @@ packages = [{include = "ciptools", from = "src"}]
 python = "^3.9"
 Flask = "^2.0.2"
 statsd = "^3.3.0"
-ciptools = "^1.2.1"
+ciptools = "^1.2.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
