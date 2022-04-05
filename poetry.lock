@@ -376,15 +376,15 @@ testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "pygments (>=2.
 
 [[package]]
 name = "pytest-flake8"
-version = "1.0.7"
+version = "1.1.1"
 description = "pytest plugin to check FLAKE8 requirements"
 category = "dev"
 optional = false
 python-versions = "*"
 
 [package.dependencies]
-flake8 = ">=3.5"
-pytest = ">=3.5"
+flake8 = ">=4.0"
+pytest = ">=7.0"
 
 [[package]]
 name = "requests"
@@ -483,7 +483,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "f25aaa235e28723840fce451aa3fbf74a3056148cca58d76a35b990867ed78ee"
+content-hash = "0ae7db08a8b953810bebc3753eb6edb18d74a51e3c1ea52790d2f8ef0669e3c2"
 
 [metadata.files]
 atomicwrites = [
@@ -706,8 +706,8 @@ pytest = [
     {file = "pytest-7.1.1.tar.gz", hash = "sha256:841132caef6b1ad17a9afde46dc4f6cfa59a05f9555aae5151f73bdf2820ca63"},
 ]
 pytest-flake8 = [
-    {file = "pytest-flake8-1.0.7.tar.gz", hash = "sha256:f0259761a903563f33d6f099914afef339c085085e643bee8343eb323b32dd6b"},
-    {file = "pytest_flake8-1.0.7-py2.py3-none-any.whl", hash = "sha256:c28cf23e7d359753c896745fd4ba859495d02e16c84bac36caa8b1eec58f5bc1"},
+    {file = "pytest-flake8-1.1.1.tar.gz", hash = "sha256:ba4f243de3cb4c2486ed9e70752c80dd4b636f7ccb27d4eba763c35ed0cd316e"},
+    {file = "pytest_flake8-1.1.1-py2.py3-none-any.whl", hash = "sha256:e0661a786f8cbf976c185f706fdaf5d6df0b1667c3bcff8e823ba263618627e7"},
 ]
 requests = [
     {file = "requests-2.27.1-py2.py3-none-any.whl", hash = "sha256:f22fa1e554c9ddfd16e6e41ac79759e17be9e492b3587efa038054674760e72d"},
